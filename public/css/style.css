@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  border: 2px solid grey;
+  margin-bottom: 2em;
+  max-width: 70vw;
+}
+.items {
+  box-sizing: border-box;
+  background-color: grey;
+  color: white;
+  margin: 0.25em;
+  width: 10vw;
+}
+.a {
+  padding-bottom: 4em;
+}
+.b {
+  padding-top: 3em;
+  padding-bottom: 8em;
+}
+.c {
+  padding-bottom: 6em;
+}
+.start {
+  align-items: flex-start;
+}
+.end {
+  align-items: flex-end;
+}
+.center {
+  align-items: center;
+}
+.stretch {
+  align-items: stretch;
+}
+.baseline {
+  align-items: baseline;
+}
