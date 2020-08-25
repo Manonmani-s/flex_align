@@ -1,12 +1,11 @@
 
-#Flex Box
+# Flex Box
 
 A Flexbox layout consists of a flex container that holds flex items. The flex container can be laid out horizontally or vertically. 
 
-##Create a flex container
+## Create a flex container
 
 The first step in any flexbox layout is to create a flex container. To do that, set the display property to flex. This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
-
 	  .container {
          display: flex | inline-flex;
          }
